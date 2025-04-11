@@ -27,7 +27,10 @@ local Window = Rayfield:CreateWindow({
 })
 
 local MainTab = Window:CreateTab("ROBLOX IS SHIT", nil) -- Title, Image
+local FETab = Window:CreateTab("FE SHIT", nil) -- Title, Image
+local FESection = FETab:CreateSection("sosal?")
 local MainSection = MainTab:CreateSection("IM GAY")
+
 
 Rayfield:Notify({
    Title = "This script is hyita",
@@ -73,8 +76,50 @@ local Button = MainTab:CreateButton({
 })
 
 local Button = MainTab:CreateButton({
-   Name = "Blox fruits (main) (key)",
+   Name = "Blox Fruits (fags game)",
    Callback = function()
-   loadstring(game:HttpGet("https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI"))()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/GalaxyTeamHub/Galaxy-Hub/main/GalaxyBloxFruit.lua"))()
+   end,
+})
+
+local Button = MainTab:CreateButton({
+   Name = "TSB",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/HenSeu87PofghYT/ALL-IN-ONE/main/NSHUBV2"))()
+   end,
+})
+
+local Button = MainTab:CreateButton({
+   Name = "Blade ball (Bedol hub) (key)",
+   Callback = function()
+   _G.UI_Size = 200 -- config ui size
+loadstring(game:HttpGet("https://raw.githubusercontent.com/3345-c-a-t-s-u-s/-beta-/main/AutoParry.lua"))()
+   end,
+})
+
+local Button = MainTab:CreateButton({
+   Name = "AUT",
+   Callback = function()
+   getgenv().ToggleUI = "J";
+loadstring(game:HttpGet("https://raw.githubusercontent.com/FlamesW/NEW/main/Launcher"))();
+   end,
+})
+
+local Button = MainTab:CreateButton({
+   Name = "UNC Checker",
+   Callback = function()
+   print("unc cheeking..")
+wait(1)
+printidentity()
+wait(1)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/unified-naming-convention/NamingStandard/main/UNCCheckEnv.lua", true))()
+   end,
+})
+
+--fe
+local Button = FETab:CreateButton({
+   Name = "backflip",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/SHRTRYScriptMANhere/stolenahhfrotflip/refs/heads/main/Flip",true))()
    end,
 })
